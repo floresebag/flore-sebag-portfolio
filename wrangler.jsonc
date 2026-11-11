@@ -1,0 +1,11 @@
+{
+  // Static-assets-only Cloudflare Worker. Deploy with: npx wrangler deploy
+  // The site files live at the repo root, so .assetsignore keeps git data,
+  // config and notes from being uploaded.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "flore-sebag-portfolio",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./"
+  }
+}
